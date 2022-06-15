@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC&family=Pacifico&display=swap');
 
 
-body, p, ul, li, img, form {
+body, p, ul, li, img, form, h1, h2 {
     margin: 0;
     padding: 0;
 }
@@ -12,7 +12,7 @@ body {
     width: 100%;
     height: 100vh;
     display: flex;
-    background-color: black;
+    background-color: #0f0f0d;
    
 }
 
@@ -70,8 +70,29 @@ p, div {
 
 
 body {
-    margin: 0px 150px;
+    /* margin: 0px 100px; */
+    justify-content: center;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 70%;
+}  
 
+.placeholder-text {
+    background-color:#b19a83;
+    min-height: calc(100vh/3);
+}
+
+.form-container {
+    background-color: #f0b97a;
+    min-height: calc(100vh/3);
+}
+
+.button-container {
+    background-color: #a99c93;
+    min-height: calc(100vh/3);
+}
 
