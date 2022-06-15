@@ -89,10 +89,18 @@ body {
 .form-container {
     background-color: #f0b97a;
     min-height: calc(100vh/3);
+    overflow-y: scroll;
 }
 
 .button-container {
     background-color: #a99c93;
     min-height: calc(100vh/3);
 }
+
+label, input {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
