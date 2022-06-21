@@ -89,7 +89,30 @@ body {
 .form-container {
     background-color: #f0b97a;
     min-height: calc(100vh/3);
-    overflow-y: scroll;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* overflow-y: none; */
+}
+
+.form-inner {
+    display: flex;
+    /* gap: 200px; */
+    justify-content: space-evenly;
+}
+
+/* .form-row-1 {
+    margin: 55px;
+    padding-top: 25px;
+}
+
+.form-row-2 {
+    padding-top: 25px;
+}  */
+
+.form-row-1, .form-row-2 {
+    display: flex;
+    flex-direction: column;
+    /* padding: 40px; */
 }
 
 .button-container {
@@ -101,6 +124,3 @@ label, input {
     display: flex;
     flex-direction: column;
 }
-
-
-
